@@ -4,10 +4,10 @@ Points to be noted about me:
 - A Caffeine based life-form
 - I always learn from mistakes of others who take my advice. So my advice is, dont take any advice from me.
 
-And by the way don’t follow me because I don’t even know where I’m going ..  
+And by the way don’t follow me because I don’t even know where I’m going ...  
 But you can contact me ->
   
-Mail: aravindswami135@gmail.com  
+Gmail: aravindswami135@gmail.com  
 Instagram: [name_is_cipher](https://www.instagram.com/name_is_cipher/)  
 FaceBook: [name.is.cipher](https://www.facebook.com/name.is.cipher)  
 
