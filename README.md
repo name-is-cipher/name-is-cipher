@@ -9,8 +9,8 @@ And by the way don’t follow me because I don’t even know where I’m going .
 But you can contact me ->
   
 Mail: aravindswami135@gmail.com  
-Instagram: name_is_cipher  
-FaceBook: name.is.cipher  
+Instagram: [name_is_cipher](https://www.instagram.com/name_is_cipher/)  
+FaceBook: [name.is.cipher](https://www.facebook.com/name.is.cipher)  
 
 <!---
 name-is-cipher/name-is-cipher is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
