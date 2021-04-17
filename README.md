@@ -2,7 +2,6 @@ Hi, I’m Aravind Swami @name-is-cipher
 
 Points to be noted about me:
 - A Caffeine based life-form
-- Analog at birth, digital by design.
 - I always learn from mistakes of others who take my advice. So my advice is, dont take any advice from me.
 
 And by the way don’t follow me because I don’t even know where I’m going ..  
