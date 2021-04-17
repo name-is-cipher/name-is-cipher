@@ -6,10 +6,10 @@ Points to be noted about me:
 - I always learn from mistakes of others who take my advice. So my advice is, dont take any advice from me.
 
 An by the way Don’t follow me because I don’t even know where I’m going
-But you can contat me ->
-Mail: aravindswami135@gmail.com
-Instagram: name_is_cipher
-FaceBook: name.is.cipher
+But you can contat me ->  
+Mail: aravindswami135@gmail.com  
+Instagram: name_is_cipher  
+FaceBook: name.is.cipher  
 
 <!---
 name-is-cipher/name-is-cipher is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
