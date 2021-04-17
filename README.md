@@ -5,7 +5,7 @@ Points to be noted about me:
 - Analog at birth, digital by design.
 - I always learn from mistakes of others who take my advice. So my advice is, dont take any advice from me.
 
-An by the way Don’t follow me because I don’t even know where I’m going
+And by the way don’t follow me because I don’t even know where I’m going  
 But you can contat me ->  
 Mail: aravindswami135@gmail.com  
 Instagram: name_is_cipher  
