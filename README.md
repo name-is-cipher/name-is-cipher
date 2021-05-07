@@ -1,13 +1,15 @@
 Hi, I’m Aravind Swami, a.k.a name-is-cipher
 
-Before you start to know, there are few points* you might wanna know.
-I'm currently a student at [IIST](https://en.wikipedia.org/wiki/Indian_Institute_of_Space_Science_and_Technology), pursuing my engineering in the Avionics field. I live in Vizag, AP, India.
-Networking and cybersecurity enthusiast.
-Oreo Lover.
-Not a coffee man.
+Before you start to know me, there are few points* you might wanna know.
 
 *Points to be noted about me:
 - I always learn from mistakes of others who take my advice. So my advice is, dont take any advice from me.
+
+With that being said lets know about me, I'm currently a student at [IIST](https://en.wikipedia.org/wiki/Indian_Institute_of_Space_Science_and_Technology), pursuing my engineering in the Avionics. 
+I live in Vizag, AP, India.
+Networking and cybersecurity enthusiast.
+Oreo Lover.
+Not a coffee man.
 
 And by the way, there is no compulsion to follow me, because I don’t even know where I’m going...  
 But you can contact me any time as, I'm always available ->
