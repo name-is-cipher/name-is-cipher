@@ -8,8 +8,8 @@ With that being said lets know about me, I'm currently a student at [IIST](https
 I live in Vizag, India.  
 Networking and cybersecurity enthusiast.  
 Oreo Lover.  
-Not a coffee man really but if like my work you can 
-<a href="https://www.buymeacoffee.com/name.is.cipher" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-blue.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>![image](https://user-images.githubusercontent.com/41113366/117494809-79e3f280-af92-11eb-971c-b807500b8009.png)
+Not a really coffee man, but if like my work you can 
+<a href="https://www.buymeacoffee.com/name.is.cipher" target="_blank"><img src="img src="https://cdn.buymeacoffee.com/buttons/v2/default-blue.png" alt="Buy Me A Coffee" height="41" width="174"></a>
 
 
 And by the way, there is no compulsion to follow me, because I don’t even know where I’m going...  
