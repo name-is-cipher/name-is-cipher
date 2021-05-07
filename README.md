@@ -9,7 +9,7 @@ I live in Vizag, India.
 Networking and cybersecurity enthusiast.  
 Oreo Lover.  
 Not a really coffee man, but if like my work you can  
-<a href="https://www.buymeacoffee.com/name.is.cipher" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-blue.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>![image](https://user-images.githubusercontent.com/41113366/117495734-a6e4d500-af93-11eb-8f9e-9e9a481d812f.png)
+<a href="https://www.buymeacoffee.com/name.is.cipher" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-blue.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
 
 And by the way, there is no compulsion to follow me, because I don’t even know where I’m going...  
 But you can contact me any time as, I'm always available ->
