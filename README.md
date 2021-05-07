@@ -4,9 +4,9 @@ Before you start to know me, there are few points* you might wanna know first.
   
 - I always learn from mistakes of others who take my advice. So my advice is, dont take any advice from me.
 
-With that being said lets know about me, I'm currently a student at [IIST](https://en.wikipedia.org/wiki/Indian_Institute_of_Space_Science_and_Technology), pursuing my engineering in Avionics. And ofcourse I'm a typical a Backbencher.   
-I live in Vizag, India. 
-  
+With that being said lets know about me, I'm currently a student at [IIST](https://en.wikipedia.org/wiki/Indian_Institute_of_Space_Science_and_Technology), pursuing my engineering in Avionics. And ofcourse I'm a typical a Backbencher. I live in Vizag, India. 
+ 
+I'm a ->
 Networking and Cybersecurity enthusiast.  
 Oreo Lover.  
 Not really a coffee man, but if like my work you can 👇   
