@@ -4,7 +4,7 @@ Before you start to know me, there are few points* you might wanna know first.
   
 - I always learn from mistakes of others who take my advice. So my advice is, dont take any advice from me.
 
-With that being said lets know about me, I'm currently a student at [IIST](https://en.wikipedia.org/wiki/Indian_Institute_of_Space_Science_and_Technology), pursuing my engineering in the Avionics. And ofcourse typically a Backbencher.   
+With that being said lets know about me, I'm currently a student at [IIST](https://en.wikipedia.org/wiki/Indian_Institute_of_Space_Science_and_Technology), pursuing my engineering in Avionics. And ofcourse I'm a typical a Backbencher.   
 I live in Vizag, India.  
 Networking and cybersecurity enthusiast.  
 Oreo Lover.  
@@ -14,8 +14,8 @@ And by the way, there is no compulsion to follow me, because I don’t even know
 But you can contact me any time as, I'm always available ->
   
 Gmail: aravindswami135@gmail.com  
-Instagram: [name_is_cipher](https://www.instagram.com/name_is_cipher/) 
-Twitter: [name_is_cipher](https://twitter.com/name_is_cipher)
+Instagram: [name_is_cipher](https://www.instagram.com/name_is_cipher)   
+Twitter: [name_is_cipher](https://twitter.com/name_is_cipher)  
 Facebook: [name.is.cipher](https://www.facebook.com/name.is.cipher)  
 
 <!---
