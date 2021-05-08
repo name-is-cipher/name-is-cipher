@@ -5,9 +5,9 @@ Before you start to know me, there are few things you might wanna know first.
 - I always learn from the mistakes of others who take my advice. So my advice is, don't take any advice from me.
 - And there are two Rules in my team:  
    1. I'm is always right.
-   2. If you feel I'm wrong, see rule no. i.  
+   2. If you think I'm wrong, see rule no. i.  
 
-With that being said lets know about me, I'm currently a student at [IIST](https://en.wikipedia.org/wiki/Indian_Institute_of_Space_Science_and_Technology), pursuing my engineering in Avionics. And ofcourse I'm a typical a Backbencher. I live in Vizag, India.  
+With that being said let us know about me, I'm currently a student at [IIST](https://en.wikipedia.org/wiki/Indian_Institute_of_Space_Science_and_Technology), pursuing my engineering in Avionics. And of course, I'm a typical Backbencher and I live in Vizag, India.  
 I'm a ->  
 Networking and Cybersecurity enthusiast.  
 Oreo Lover.  
