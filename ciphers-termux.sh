@@ -48,14 +48,13 @@ echo "# Mail: aravindswami135@gmail.com" >> $HOME/.termux/bin/xsu
 chmod +x $HOME/.termux/bin/xsu
 progress
 echo " "
-echo "Installation successful !!!"
-echo " "
-echo "> Run 'xsu' anywhere to start Termux Superuser."
+echo "Termux su Installation successful !!!"
 echo " "
 ################################
 
 
 echo " --------------------------"
+echo " "
 echo " "
 
 ###### Termux Extra keys #######
@@ -68,23 +67,48 @@ echo " ['TAB','ESC','ALT','LEFT','DOWN','RIGHT','/','DEL'] \ " >> .termux/termux
 echo "]" >> .termux/termux.properties
 progress
 echo " "
+echo "Adding Extra Keys successful !!!"
+echo " "
 #################################
+
 
 echo "----------------------------"
 echo " "
+echo " "
+
 
 ###### Adding aliases #######
 
 echo "Adding aliase to Termux !!!"
-progress
 echo "ls -AlF" >> ~/.termux/bin/lsa
-chmod +x ~/.termux/bin/*
+progress
+echo "Adding aliases successful !!!"
 echo " "
 #################################
 
 
+echo "----------------------------"
+echo " "
+
+
+############# ducky ############
+
+echo "Install hid gadget test !!!"
+wget https://github.com/name-is-cipher/name-is-cipher/raw/main/ducky ~/.termux/bin/
+chmod +x ~/.termux/bin/*
+echo "Ducky Installation successful !!!"
+echo " "
+#################################
+
+
+echo "----------------------------"
+echo " "
+echo " "
+
 ###### END of installation #######
 
+echo " "
+echo " Termux is configured as per cipher's configruation..."
 echo " "
 echo " [*] Termux needs to be restarted to work properly,"
 echo "     Please restart !"
