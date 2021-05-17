@@ -96,15 +96,15 @@ echo " ||||||||||||||||||||||||||||||||||||||||||||"
 echo " "
 
 
-############# ducky ############
+############# hid-gadget-test ############
 
-echo " [*] Install hid gadget test !!!"
+echo " [*] Installing hid gadget test !!!"
 echo " "
-wget https://github.com/name-is-cipher/name-is-cipher/raw/main/ducky
-mv  ducky ~/.termux/bin/
+wget https://github.com/name-is-cipher/name-is-cipher/raw/main/hid-gadget-test
+mv  hid-gadget-test ~/.termux/bin/
 chmod +x ~/.termux/bin/*
 echo " "
-echo " > Successfully installed Ducky !!!"
+echo " > Successfully installed hid-gadget-test !!!"
 echo " "
 #################################
 
