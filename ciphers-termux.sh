@@ -100,7 +100,8 @@ echo " "
 
 echo " [*] Install hid gadget test !!!"
 echo " "
-wget https://github.com/name-is-cipher/name-is-cipher/raw/main/ducky ~/.termux/bin/ducky
+wget https://github.com/name-is-cipher/name-is-cipher/raw/main/ducky
+mv  ducky ~/.termux/bin/
 chmod +x ~/.termux/bin/*
 echo " "
 echo " > Successfully installed Ducky !!!"
