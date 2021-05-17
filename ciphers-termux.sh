@@ -67,9 +67,20 @@ echo " ['CTRL','$','|','HOME','UP','END','-','='], \ " >> .termux/termux.propert
 echo " ['TAB','ESC','ALT','LEFT','DOWN','RIGHT','/','DEL'] \ " >> .termux/termux.properties
 echo "]" >> .termux/termux.properties
 progress
+echo " "
 #################################
 
+echo "----------------------------"
+echo " "
 
+###### Adding aliases #######
+
+echo "Adding aliase to Termux !!!"
+progress
+echo "ls -AlF" >> ~/.termux/bin/lsa
+chmod +x ~/.termux/bin/*
+echo " "
+#################################
 
 
 ###### END of installation #######
