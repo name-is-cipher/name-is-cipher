@@ -63,10 +63,11 @@ echo " "
 echo " [*] Adding Extra Keys to Termux !!!"
 echo " "
 echo " " >> .termux/termux.properties
-echo "extra-keys = [ \ " >> .termux/termux.properties
-echo " ['CTRL','$','|','HOME','UP','END','-','='], \ " >> .termux/termux.properties
-echo " ['TAB','ESC','ALT','LEFT','DOWN','RIGHT','/','DEL'] \ " >> .termux/termux.properties
+echo "extra-keys = [ \\" >> .termux/termux.properties
+echo " ['CTRL','$','|','HOME','UP','END','-','='], \\" >> .termux/termux.properties
+echo " ['TAB','ESC','ALT','LEFT','DOWN','RIGHT','/','DEL'] \\" >> .termux/termux.properties
 echo "]" >> .termux/termux.properties
+echo " " >> .termux/termux.properties
 progress
 echo " "
 echo " > Successfully added extra Keys to Termux !!!"
@@ -99,7 +100,7 @@ echo " "
 
 echo " [*] Install hid gadget test !!!"
 echo " "
-wget https://github.com/name-is-cipher/name-is-cipher/raw/main/ducky ~/.termux/bin/
+wget https://github.com/name-is-cipher/name-is-cipher/raw/main/ducky ~/.termux/bin/ducky
 chmod +x ~/.termux/bin/*
 echo " "
 echo " > Successfully installed Ducky !!!"
