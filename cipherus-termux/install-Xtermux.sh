@@ -1,13 +1,25 @@
+red='\033[1;31m'
+green='\033[1;32m'
+yellow='\033[1;33m'
+blue='\033[1;34m'
+light_cyan='\033[1;96m'
+reset='\033[0m'
+
 function print_banner() {
     clear
-    printf "${blue}#####################################\n"
-    printf "${blue}##                                 ##\n"
-    printf "${blue}##         Cipher's Termux         ##\n"
-    printf "${blue}##             configs             ##\n"
-    printf "${blue}##                                 ##\n"
-    printf "${blue}########## name-is-cipher ###########${reset}\n\n"
+    printf "  ${blue}#####################################\n"
+    printf "  ${blue}##                                 ##\n"
+    printf "  ${blue}##         Cipher's Termux         ##\n"
+    printf "  ${blue}##             configs             ##\n"
+    printf "  ${blue}##                                 ##\n"
+    printf "  ${blue}#####################################${reset}\n\n"
+            echo "  ||||||||||  name-is-cipher  ||||||||||"
+            echo "---------------------------------------------"
+            echo "  "
+            echo "  "
+    
 }
-
+read
 function progress {
 BAR='##############################'
 FILL='------------------------------'
