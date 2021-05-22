@@ -34,6 +34,26 @@ function update_termux() {
 
 }
 
+function ynprompt() {
+
+    echo " "
+    read -p "$1 (y/n): " replay
+
+    while true; do
+
+    if [ "$replay" = "Y" ] || [ "$replay" = "y" ]; then
+    replay=1
+    exit;
+    elif [ "$replay" = "N" ] || [ "$replay" = "n" ]; then
+    replay=0
+    exit;
+    fi
+    read -p "$1, only (y/n): " replay
+    echo " "
+    done
+
+}
+
 function check_tbin() {
 
     if [ ! -d ~/.termux/bin ] then
@@ -84,4 +104,12 @@ function ibar {
     echo " "
     echo " "
 
+}
+
+function clean_cipherus() {
+
+    if [-f cipherus-libraires.sh ]
+    then
+        rm cipherus-libraires.sh
+        rm .wget-hts
 }
