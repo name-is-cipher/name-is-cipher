@@ -25,31 +25,6 @@ fi
 
 }
 
-function termux_extra-keys() {
-
-echo " "
-echo " [*] Adding Extra Keys to Termux !!!"
-echo " "
-
-# Binding extra keys
-echo " " >> ~/.termux/termux.properties
-echo "# Cipher's Termux Extra keys Configuration:" >> ~/.termux/termux.properties
-echo " " >> ~/.termux/termux.properties
-echo "extra-keys = [ \\" >> ~/.termux/termux.properties
-echo " ['CTRL','$','|','HOME','UP','END','-','='], \\" >> ~/.termux/termux.properties
-echo " ['TAB','ESC','ALT','LEFT','DOWN','RIGHT','/','DEL'] \\" >> ~/.termux/termux.properties
-echo "]" >> ~/.termux/termux.properties
-echo " " >> ~/.termux/termux.properties
-
-ibar ~/.termux/termux.properties 96
-
-echo " "
-echo " > Successfully added extra Keys to Termux !!!"
-echo "   Restart the termux to see the changes..."
-echo " "
-
-}
-
 check_update
 
 if [ ! -f cipherus-libraris.sh ]; then

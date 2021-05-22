@@ -115,3 +115,64 @@ function clean_cipherus() {
         rm .wget-hsts
     fi
 }
+
+function termux_extra-keys() {
+
+echo " "
+echo " [*] Adding Extra Keys to Termux !!!"
+echo " "
+
+# Binding extra keys
+echo " " >> ~/.termux/termux.properties
+echo "# Cipher's Termux Extra keys Configuration:" >> ~/.termux/termux.properties
+echo " " >> ~/.termux/termux.properties
+echo "extra-keys = [ \\" >> ~/.termux/termux.properties
+echo " ['CTRL','$','|','HOME','UP','END','-','='], \\" >> ~/.termux/termux.properties
+echo " ['TAB','ESC','ALT','LEFT','DOWN','RIGHT','/','DEL'] \\" >> ~/.termux/termux.properties
+echo "]" >> ~/.termux/termux.properties
+echo " " >> ~/.termux/termux.properties
+
+ibar ~/.termux/termux.properties 96
+
+echo " "
+echo " > Successfully added extra Keys to Termux !!!"
+echo "   Restart the termux to see the changes..."
+echo " "
+
+}
+
+function termux-sshd() {
+
+echo " "
+echo " [*] Installing sshd to Termux !!!"
+echo " "
+apt install openssh
+clear
+echo " > Set the Passwaord for user,"
+echo "   in order to Login to ssh..."
+echo " "
+passwd
+echo " > Successfully installed sshd !!!"
+echo " "
+echo "   -> start : $ sshd"
+echo "   -> stop  : $ pkill sshd"
+echo " "
+
+}
+
+function termux_ducky() {
+
+echo " "
+echo " [*] Installing Ducky !!!"
+echo " "
+
+wget -q https://github.com/name-is-cipher/name-is-cipher/raw/main/binaries/hid-gadget-test
+chmod +x hid-gadget-test
+mv  hid-gadget-test /data/data/com.termux/files/usr/bin
+clear
+echo " "
+echo " > Successfully installed Ducky !!!"
+echo " "
+
+
+}
