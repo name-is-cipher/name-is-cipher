@@ -99,6 +99,7 @@ function ibar {
     echo " github: name-is-cipher"
     echo " Twitter: name_is_cipher"
     echo " Mail: aravindswami135@gmail.com"
+    clean_cipherus
     read
     exit
     fi
@@ -109,7 +110,7 @@ function ibar {
 
 function clean_cipherus() {
 
-    if [-f cipherus-libraires.sh ]; then
+    if [ -f cipherus-libraires.sh ]; then
         rm cipherus-libraires.sh
         rm .wget-hts
     fi
