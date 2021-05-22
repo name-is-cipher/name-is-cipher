@@ -16,7 +16,7 @@ if [ ! -d ~/.termux ]; then
     apt install wget -y
     clear
     echo " "
-    echo " [*] You need completly restart the termux, "
+    echo " [*] You need to completly restart the termux, "
     echo "     And start the installation again !!!"
     echo " "
     exit;

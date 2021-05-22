@@ -71,10 +71,10 @@ function check_tbin() {
 function ibar {
 
     FILE=$1
-    BAR='########################################'
-    FILL='----------------------------------------'
+    BAR='##############################'
+    FILL='------------------------------'
     Lines=$2  # To No. lines in file that need to be present.
-    barLen=40 # Bar Lenght of progressbar.
+    barLen=30 # Bar Lenght of progressbar.
     count=0
 
     echo " "
@@ -110,8 +110,8 @@ function ibar {
 
 function clean_cipherus() {
 
-    if [ -f cipherus-libraires.sh ]; then
-        rm cipherus-libraires.sh
+    if [ -f cipherus-libraries.sh ]; then
+        rm cipherus-libraries.sh
         rm .wget-hts
     fi
 }
