@@ -17,8 +17,8 @@ function banner_cipherusprime() {
     printf "    ${blue}##                                 ##\n"
     printf "    ${blue}##         CipherusPrime           ##\n"
     printf "    ${blue}##                                 ##\n"
-    printf "    ${blue}#####################################${reset}\n\n"
-    printf "    ${blue}|||||||||| name-is-cipher  ||||||||||\n"
+    printf "    ${blue}#####################################\n"
+    printf "    ${blue}|||||||||| name-is-cipher  ||||||||||${reset}\n\n"
           echo "----------------------------------------------"
     echo "  "
 
@@ -56,7 +56,7 @@ function ynprompt() {
 
 function check_tbin() {
 
-    if [ ! -d ~/.termux/bin ] then
+    if [ ! -d ~/.termux/bin ]; then
         
         mkdir ~/.termux/bin
         echo " " >> ~/.bashrc
@@ -90,8 +90,7 @@ function ibar {
     echo " "
 
     # Integrity checker
-    if [ $percent != 100 ] 
-    then
+    if [ $percent != 100 ]; then
     echo " "
     echo " [!] File is corrupt, Please try to reinstall !!!"
     echo " "
@@ -110,8 +109,8 @@ function ibar {
 
 function clean_cipherus() {
 
-    if [-f cipherus-libraires.sh ]
-    then
+    if [-f cipherus-libraires.sh ]; then
         rm cipherus-libraires.sh
         rm .wget-hts
+    fi
 }

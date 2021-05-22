@@ -1,10 +1,28 @@
 # This add extra Row of keys to Termux
 # Needs Resatart of Termux !!!
 
-if [ ! -f cipherus-libraris.sh ]; then
-wget -q https://github.com/name-is-cipher/name-is-cipher/raw/main/cipherus-libraries.sh
+function check_update() {
+if [ ! -d ~/.termux ]; then
+
+    echo " "
+    echo " [!] Your are on older version of Termux !!!"
+    echo "     Updating Termux...."
+    sleep 4
+    apt update
+    clear
+    echo " [!] if 'y/n' prompted any, hit -> y"
+    sleep 5
+    apt upgrade -y
+    apt install wget -y
+    clear
+    echo " "
+    echo " [*] You need completly restart the termux, "
+    echo "     And start the installation again !!!"
+    echo " "
+    exit;
 fi
-source cipherus-libraries.sh
+
+}
 
 function termux_extra-keys() {
 
@@ -23,19 +41,13 @@ echo " "
 
 }
 
-if [ ! -d ~/.termux] 
-then
-    echo " "
-    echo " [!] Your are on older version of Termux !!!"
-    ynprompt "    it needs to update, Do you want to update"
-    if [ replay == 1 ]; then
-    update_termux
-    clear
-    echo " [*] You need completly restart the termux for installation !!!"
-    elif [ replay == 0 ] then
-    clean_cipherus;
-    exit;
+check_update
+
+if [ ! -f cipherus-libraris.sh ]; then
+wget -q https://github.com/name-is-cipher/name-is-cipher/raw/main/cipherus-libraries.sh
 fi
+
+source cipherus-libraries.sh
 
 check_tbin
 
