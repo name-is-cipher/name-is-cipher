@@ -100,6 +100,8 @@ function ibar {
     echo " github: name-is-cipher"
     echo " Twitter: name_is_cipher"
     echo " Mail: aravindswami135@gmail.com"
+    read
+    exit
     fi
     echo " "
     echo " "
