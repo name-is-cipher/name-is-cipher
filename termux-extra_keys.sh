@@ -26,6 +26,7 @@ fi
 
 function termux_extra-keys() {
 
+clear
 echo " "
 echo " [*] Adding Extra Keys to Termux !!!"
 echo " "
@@ -40,7 +41,7 @@ echo " ['TAB','ESC','ALT','LEFT','DOWN','RIGHT','/','DEL'] \\" >> .termux/termux
 echo "]" >> .termux/termux.properties
 echo " " >> .termux/termux.properties
 
-ibar ~/.termux/termux.properties 97
+ibar ~/.termux/termux.properties 96
 
 echo " "
 echo " > Successfully added extra Keys to Termux !!!"

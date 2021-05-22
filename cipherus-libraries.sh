@@ -112,6 +112,6 @@ function clean_cipherus() {
 
     if [ -f cipherus-libraries.sh ]; then
         rm cipherus-libraries.sh
-        rm .wget-hts
+        rm .wget-hsts
     fi
 }
