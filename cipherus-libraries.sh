@@ -18,9 +18,33 @@ function banner_cipherusprime() {
     printf "    ${blue}##         CipherusPrime           ##\n"
     printf "    ${blue}##                                 ##\n"
     printf "    ${blue}#####################################\n"
-    printf "    ${blue}|||||||||| name-is-cipher  ||||||||||${reset}\n\n"
-          echo "----------------------------------------------"
+    printf "    ${blue}|||||||||| name-is-cipher  ||||||||||\n\n"
+          echo "----------------------------------------------${reset}"
     echo "  "
+
+}
+
+function check_update() {
+if [ ! -d ~/.termux ]; then
+
+    clear
+    echo " "
+    echo " [!] Your are on older version of Termux !!!"
+    echo "     Updating Termux...."
+    sleep 4
+    apt update
+    clear
+    echo " [!] if 'y/n' prompted any, hit -> y"
+    sleep 5
+    apt upgrade -y
+    apt install wget -y
+    clear
+    echo " "
+    echo " [*] You need to completly restart the termux, "
+    echo "     And start the installation again !!!"
+    echo " "
+    exit;
+fi
 
 }
 
@@ -112,7 +136,7 @@ function clean_cipherus() {
 
     if [ -f cipherus-libraries.sh ]; then
         rm cipherus-libraries.sh
-        rm .wget-hsts
+        rm ~/.wget-hsts
     fi
 }
 
@@ -174,5 +198,91 @@ echo " "
 echo " > Successfully installed Ducky !!!"
 echo " "
 
+
+}
+
+function install_bashrc() {
+
+wget -q 
+mv bashrc ~/.bashrc
+
+}
+
+function install_termux-superuser() {
+
+    echo "Installing Termux superuser ..."
+    echo " "
+    # Making xsu
+    echo "# This file starts termux in su with all termux binaries enabled" >> ~/.termux/bin/xsu
+    echo " " >> ~/.termux/bin/xsu
+    echo "su -c '" >> ~/.termux/bin/xsu
+    echo "xsu_env=\$PATH:/data/data/com.termux/files/usr/bin" >> ~/.termux/bin/xsu
+    echo "xsu_env=\$xsu_env:/data/data/com.termux/files/usr/bin/applets" >> ~/.termux/bin/xsu
+    echo "xsu_env=\$xsu_envu:/data/data/com.termux/files/home/.termux/bin" >> ~/.termux/bin/xsu
+    echo "export PATH=\$xsu_env; exec su'" >> ~/.termux/bin/xsu
+    echo " " >> ~/.termux/bin/xsu
+    echo "# Author: Aravind Swami [github: name-is-cipher]" >> ~/.termux/bin/xsu
+    echo "# Twitter: name_is_cipher" >> ~/.termux/bin/xsu
+    echo "# Mail: aravindswami135@gmail.com" >> ~/.termux/bin/xsu
+    chmod +x ~/.termux/bin/xsu
+    ibar ~/.termux/bin/xsu 11
+    echo " "
+    echo "Installation successful !!!"
+    echo " "
+    echo "> Run 'xsu' anywhere to start Termux Superuser."
+    echo " "
+    echo " [*] Termux needs to be restarted to work properly,"
+    echo "     Please restart !"
+    echo " "
+    read 
+    exit
+
+}
+
+function install_boot-nethunter() {
+
+    echo "Installing Boot Nethunter ..."
+    echo " "
+    # Making boot-nethunter.sh
+    echo "# This scrpit boots nethunter in termux" >> ~/.termux/bin/boot-nethunter.sh
+    echo " " >> ~/.termux/bin/boot-nethunter.sh
+    echo "su -c '" >> ~/.termux/bin/boot-nethunter.sh
+    echo "nethunter_env=\$PATH:/data/data/com.termux/files/usr/bin" >> ~/.termux/bin/boot-nethunter.sh
+    echo "xsu_env=\$xsu_env:/data/data/com.termux/files/usr/bin/applets" >> ~/.termux/bin/boot-nethunter.sh
+    echo "xsu_env=\$xsu_envu:/data/data/com.termux/files/home/.termux/bin" >> ~/.termux/bin/boot-nethunter.sh
+    echo "export PATH=\$xsu_env; exec su'" >> ~/.termux/bin/boot-nethunter.sh
+    echo " " >> ~/.termux/bin/boot-nethunter.sh
+    echo "# Author: Aravind Swami [github: name-is-cipher]" >> ~/.termux/bin/boot-nethunter.sh
+    echo "# Twitter: name_is_cipher" >> ~/.termux/bin/boot-nethunter.sh
+    echo "# Mail: aravindswami135@gmail.com" >> ~/.termux/bin/boot-nethunter.sh
+
+    echo "# This file is a part of 'boot-nethunter'," >> ~/.termux/boot_nethunter.sh
+    echo "# Don't Modify anything until you are fully aware of what you are doing ..." >> ~/.termux/boot_nethunter.sh
+    echo " " >> ~/.termux/boot_nethunter.sh
+    echo "su -c '" >> ~/.termux/bin/boot-nethunter.sh
+    echo "nethunter_env=\$PATH:/product/bin" >> ~/.termux/boot_nethunter.sh
+    echo "nethunter_env=\$PATH:/apex/com.android.runtime/bin" >> ~/.termux/boot_nethunter.sh
+    echo "nethunter_env=\$PATH:/odm/bin" >> ~/.termux/boot_nethunter.sh
+    echo "nethunter_env=\$PATH:/vendor/bin" >> ~/.termux/boot_nethunter.sh
+    echo "nethunter_env=\$PATH:/vendor/xbin" >> ~/.termux/boot_nethunter.sh
+    echo "nethunter_env=\$PATH:/data/data/com.offsec.nethunter/files/scripts" >> ~/.termux/boot_nethunter.sh
+    echo "nethunter_env=\$PATH:/data/data/com.offsec.nethunter/files/scripts/bin" >> ~/.termux/boot_nethunter.sh
+    echo "bootkali" >> ~/.termux/boot_nethunter.sh
+    echo " " >> ~/.termux/boot_nethunter.sh
+    echo "# Author: Aravind Swami [github: name-is-cipher]" >> ~/.termux/boot_nethunter.sh
+    echo "# Mail: aravindswami135@gmail.com" >> ~/.termux/boot_nethunter.sh
+
+    chmod +x ~/.termux/bin/boot-nethunter.sh
+    ibar ~/.termux/bin/boot-nethunter.sh 11
+    echo " "
+    echo "Installation successful !!!"
+    echo " "
+    echo "> Run 'xsu' anywhere to start Termux Superuser."
+    echo " "
+    echo " [*] Termux needs to be restarted to work properly,"
+    echo "     Please restart !"
+    echo " "
+    read 
+    exit
 
 }

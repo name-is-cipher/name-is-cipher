@@ -1,0 +1,30 @@
+if [ "$color_prompt" = yes ]; then
+    prompt_color='\[\033[;32m\]'
+    info_color='\[\033[1;34m\]'
+    prompt_symbol=👽
+    if [ "$EUID" -eq 0 ]; then # Change prompt colors for root user
+        prompt_color='\[\033[;94m\]'
+        info_color='\[\033[1;31m\]'
+        prompt_symbol=💀
+	user=root
+    fi
+    PS1=$prompt_color'┌──('$info_color'${user}${prompt_symbol}MiPhone'$prompt_color')-[\[\033[0;1m\]\w'$prompt_color']\n'$prompt_color'└─'$info_color'\$\[\033[0m\] '
+else
+    PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
+fi
+
+unset color_prompt force_color_prompt
+
+
+
+# Sourcing the aliases
+
+if [ -f /data/data/com.termux/files/home/.bash_aliases ]; then
+	. /data/data/com.termux/files/home/.bash_aliases
+fi
+
+
+
+# This PATH is for Termux superuser bin folder
+
+export PATH=$PATH:/data/data/com.termux/files/home/.termux/bin

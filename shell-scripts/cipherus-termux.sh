@@ -1,9 +1,36 @@
+# The is cipher's Termux configurations:
 
-blue='\033[1;34m'
-light_cyan='\033[1;96m'
-reset='\033[0m'
+function check_update() {
 
-function print_banner() {
+if [ ! -d ~/.termux ]; then
+
+    clear
+    echo " "
+    echo " [!] Your are on older version of Termux !!!"
+    echo "     Updating Termux...."
+    sleep 4
+    apt update
+    clear
+    echo " [!] if 'y/n' prompted any, hit -> y"
+    sleep 5
+    apt upgrade -y
+    apt install wget -y
+    clear
+    echo " "
+    echo " [*] You need to completly restart the termux, "
+    echo "     And start the installation again !!!"
+    echo " "
+    exit;
+fi
+
+}
+
+function banner_cipherus-termux() {
+
+  blue='\033[1;34m'
+  light_cyan='\033[1;96m'
+  reset='\033[0m'
+
     clear
     printf "  ${blue}#####################################\n"
     printf "  ${blue}##                                 ##\n"
@@ -18,37 +45,27 @@ function print_banner() {
     
 }
 
-read
+check_update
 
+if [ ! -f cipherus-libraris.sh ]; then
+wget -q https://github.com/name-is-cipher/name-is-cipher/raw/main/cipherus-libraries.sh
+fi
 
-print_banner
+source cipherus-libraries.sh
+
+banner_cipherus-termux
 
 ######### Termux Superuser ##########
 
+install_termux-Superuser
 
-
-echo " "
 ################################
 
-echo " "
-echo " ||||||||||||||||||||||||||||||||||||||||||"
-echo " "
-echo " "
+
 
 ###### Termux Extra keys #######
 
-echo " [*] Adding Extra Keys to Termux !!!"
-echo " "
-echo " " >> .termux/termux.properties
-echo "extra-keys = [ \\" >> .termux/termux.properties
-echo " ['CTRL','$','|','HOME','UP','END','-','='], \\" >> .termux/termux.properties
-echo " ['TAB','ESC','ALT','LEFT','DOWN','RIGHT','/','DEL'] \\" >> .termux/termux.properties
-echo "]" >> .termux/termux.properties
-echo " " >> .termux/termux.properties
-progress
-echo " "
-echo " > Successfully added extra Keys to Termux !!!"
-echo " "
+
 #################################
 
 echo " "
