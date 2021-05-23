@@ -1,4 +1,4 @@
-#! /data/data/com.termux/bin/bash
+#! /bin/bash
 
 # The is cipher's Termux configurations:
 
@@ -13,7 +13,7 @@ if [ ! -d ~/.termux ]; then
     sleep 4
     apt update
     clear
-    echo " [!] if 'y/n' prompted any, hit -> y"
+    echo " [!] if prompted any, hit -> y"
     sleep 5
     apt upgrade -y
     apt install wget -y
@@ -24,6 +24,8 @@ if [ ! -d ~/.termux ]; then
     echo " "
     exit;
 fi
+
+}
 
 check_update
 
@@ -43,15 +45,15 @@ termux_bashrc
 
 check_tbin
 
-sleep 1
+read
 
 # Termux Extra keys
 
 banner_cipherusprime
 
-termux_extra-Keys
+termux_extra-keys
 
-sleep 1
+read
 
 # Termux sshd
 
@@ -59,7 +61,7 @@ banner_cipherusprime
 
 termux_sshd
 
-sleep 3
+read
 
 
 # Termux Ducky
@@ -68,7 +70,7 @@ banner_cipherusprime
 
 termux_ducky
 
-sleep 1
+read
 
 # Boot nethunter
 
@@ -76,15 +78,11 @@ banner_cipherusprime
 
 install_boot-nethunter
 
-sleep 1
-
 # Termux superuser
 
 banner_cipherusprime
 
 install_termux-superuser
-
-sleep 1
 
 echo " "
 echo " [*] ALL DONE..."
@@ -94,5 +92,3 @@ echo " [!] Termux needs to be restarted to work properly,"
 echo "     Please restart !!!"
 echo " "
 read
-
-####################### end #########################

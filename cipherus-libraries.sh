@@ -183,7 +183,6 @@ mv bashrc.txt ~/.bashrc
 ibar ~/.termux/bin/ducky 32
 
 echo " [*] Successfully Configured bashrc"
-echo "     Please restart !!!"
 echo " "
 
 }
@@ -218,11 +217,6 @@ function install_boot-nethunter() {
     echo " "
     echo "> Run 'boot-kali' anywhere to start Kali Chroot."
     echo " "
-    echo " [*] Termux needs to be restarted to work properly,"
-    echo "     Please restart !"
-    echo " "
-    read
-    exit
 
 }
 
@@ -253,10 +247,5 @@ function install_termux-superuser() {
     echo " "
     echo "> Run 'xsu' anywhere to start Termux Superuser."
     echo " "
-    echo " [*] Termux needs to be restarted to work properly,"
-    echo "     Please restart !"
-    echo " "
-    read
-    exit
 
 }
