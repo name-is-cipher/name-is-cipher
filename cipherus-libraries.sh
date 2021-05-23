@@ -125,8 +125,11 @@ if [ -d ~/.termux/bin ]; then
     echo "# This PATH is for Termux superuser bin folder" >> ~/.bashrc
     echo " " >> ~/.bashrc
     echo "export PATH=\$PATH:/data/data/com.termux/files/home/.termux/bin" >> ~/.bashrc
+    ibar ~/.bashrc 36
+else
+    ibar ~/.bashrc 32
 fi
-ibar ~/.bashrc 32
+
 
 echo " [*] Successfully Configured bashrc"
 echo " "
