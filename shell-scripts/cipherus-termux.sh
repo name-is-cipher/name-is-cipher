@@ -29,7 +29,7 @@ fi
 
 check_update
 
-apt install wget -qq > /dev/null
+apt -qq -o Dpkg::Use-Pty=0 install wget
 
 if [ ! -f cipherus-libraris.sh ]; then
 wget -q https://github.com/name-is-cipher/name-is-cipher/raw/main/cipherus-libraries.sh
