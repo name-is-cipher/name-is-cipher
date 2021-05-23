@@ -29,6 +29,8 @@ fi
 
 check_update
 
+banner_cipherusprime
+
 apt install wget -y
 
 if [ ! -f cipherus-libraris.sh ]; then
