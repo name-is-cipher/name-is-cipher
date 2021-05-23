@@ -1,10 +1,15 @@
 ### This is cipher's bashrc configuration ###
 
 
-# This is to create prompt
+# termux prompt
+
 color_prompt=yes
 if [[ $USER == u0_379 ]]; then
 	user=raphaelin
+	device=MiPhone
+else
+	user=termux
+	device=localhost
 fi
 if [ "$color_prompt" = yes ]; then
 	prompt_color='\[\033[;32m\]'
@@ -14,14 +19,14 @@ if [ "$color_prompt" = yes ]; then
         	prompt_color='\[\033[;94m\]'
         	info_color='\[\033[1;31m\]'
         	prompt_symbol=💀
-		user=root
+			user=root
 	fi
-	PS1=$prompt_color'┌──('$info_color'${user}${prompt_symbol}MiPhone'$prompt_color')-[\[\033[0;1m\]\w'$prompt_color']\n'$prompt_color'└─'$info_color'\$\[\033[0m\] '
+	PS1=$prompt_color'┌──('$info_color'${user}${prompt_symbol}${device}'$prompt_color')-[\[\033[0;1m\]\w'$prompt_color']\n'$prompt_color'└─'$info_color'\$\[\033[0m\] '
 fi
 unset color_prompt force_color_prompt
 
-# Sourcing the aliases
 
-if [ -f /data/data/com.termux/files/home/.bash_aliases ]; then
-	. /data/data/com.termux/files/home/.bash_aliases
-fi
+# aliases
+
+alias lsa="ls -AlF"
+alias ll="ls -l"

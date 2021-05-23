@@ -20,41 +20,8 @@ function banner_cipherusprime() {
     printf "    ${blue}#####################################\n"
     printf "    ${blue}|||||||  ${light_cyan}name-is-cipher  ${blue}|||||||\n"
     printf "    ${blue}-------------------------------------${reset}"
-    echo "  "
-
-}
-
-function check_update() {
-if [ ! -d ~/.termux ]; then
-
-    clear
     echo " "
-    echo " [!] Your are on older version of Termux !!!"
-    echo "     Updating Termux...."
-    sleep 4
-    apt update
-    clear
-    echo " [!] if prompted any, hit -> y"
-    sleep 5
-    apt upgrade -y
-    apt install wget -y
-    clear
     echo " "
-    echo " [*] You need to completly restart the termux, "
-    echo "     And start the installation again !!!"
-    echo " "
-    exit;
-fi
-
-}
-
-function update_termux() {
-    
-    apt update
-    clear
-    echo "if prompted hit -> y"
-    sleep 2
-    apt upgrade -y
 
 }
 
@@ -163,14 +130,14 @@ echo " "
 
 }
 
-function termux-sshd() {
+function termux_sshd() {
 
 echo " "
-echo " [*] Installing sshd to Termux !!!"
+echo " [*] Installing sshd !!!"
 echo " "
 apt install openssh
 clear
-echo " > Set the Passwaord for user,"
+echo " > Set the Passwaord for current user,"
 echo "   in order to Login to ssh..."
 echo " "
 passwd
@@ -189,24 +156,35 @@ echo " "
 echo " [*] Installing Ducky !!!"
 echo " "
 
-wget -q https://github.com/name-is-cipher/name-is-cipher/raw/main/binaries/hid-gadget-test
-wget -q https://github.com/name-is-cipher/name-is-cipher/raw/main/shell-scripts/ducky.sh
+wget -q https://github.com/name-is-cipher/name-is-cipher/raw/main/assets/hid-gadget-test
+wget -q https://github.com/name-is-cipher/name-is-cipher/raw/main/assets/ducky.txt
+mv ducky.txt ducky
 chmod +x hid-gadget-test
-chmod +x ducky.sh
+chmod +x ducky
 mv hid-gadget-test /data/data/com.termux/files/usr/bin
-mv hid-gadget-test ~/.termux/bin
-clear
+mv ducky ~/.termux/bin
+
+ibar ~/.termux/bin/ducky 411
+
 echo " "
-echo " > Successfully installed Ducky !!!"
+echo " [*] Successfully installed Ducky !!!"
 echo " "
 
 
 }
 
-function install_bashrc() {
+function termux_bashrc() {
 
-wget -q 
-mv bashrc ~/.bashrc
+echo " [*] Configuring bashrc ..."
+echo " "
+wget -q https://github.com/name-is-cipher/name-is-cipher/raw/main/assets/bashrc.txt
+mv bashrc.txt ~/.bashrc
+
+ibar ~/.termux/bin/ducky 32
+
+echo " [*] Successfully Configured bashrc"
+echo "     Please restart !!!"
+echo " "
 
 }
 

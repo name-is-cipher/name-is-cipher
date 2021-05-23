@@ -23,28 +23,6 @@ if [ ! -d ~/.termux ]; then
     exit;
 fi
 
-}
-
-function banner_cipherus-termux() {
-
-  blue='\033[1;34m'
-  light_cyan='\033[1;96m'
-  reset='\033[0m'
-
-    clear
-    printf "  ${blue}#####################################\n"
-    printf "  ${blue}##                                 ##\n"
-    printf "  ${blue}##         Cipher's Termux         ##\n"
-    printf "  ${blue}##             configs             ##\n"
-    printf "  ${blue}##                                 ##\n"
-    printf "  ${blue}#####################################${reset}\n\n"
-      echo "  ${blue}||||||||||  ${light_cyan}name-is-cipher  ${blue}||||||||||"
-            echo "---------------------------------------------"
-            echo "  "
-            echo "  "
-    
-}
-
 check_update
 
 if [ ! -f cipherus-libraris.sh ]; then
@@ -53,67 +31,66 @@ fi
 
 source cipherus-libraries.sh
 
-banner_cipherus-termux
+check_tbin
 
-######### Termux Superuser ##########
+###################### main ##########################
 
-install_termux-Superuser
+# Termux bashrc
 
-################################
+banner_cipherusprime
 
+termux_bashrc
 
+sleep 1
 
-###### Termux Extra keys #######
+# Termux Extra keys
 
+banner_cipherusprime
 
-#################################
+termux_extra-Keys
 
-echo " "
-echo " ||||||||||||||||||||||||||||||||||||||||||||"
-echo " "
-echo " "
+sleep 1
 
+# Termux sshd
 
-###### Adding aliases #######
+banner_cipherusprime
 
-echo " [*] Adding aliase to Termux !!!"
-echo " "
-echo "ls -AlF" >> ~/.termux/bin/lsa
-progress
-echo " "
-echo " > Successfully added aliases to Termux !!!"
-echo " "
-#################################
+termux_sshd
 
-echo " "
-echo " ||||||||||||||||||||||||||||||||||||||||||||"
-echo " "
+sleep 3
 
 
-############# hid-gadget-test ############
+# Termux Ducky
 
-echo " [*] Installing hid gadget test !!!"
-echo " "
-wget https://github.com/name-is-cipher/name-is-cipher/raw/main/hid-gadget-test
-mv  hid-gadget-test ~/.termux/bin/
-chmod +x ~/.termux/bin/*
-echo " "
-echo " > Successfully installed hid-gadget-test !!!"
-echo " "
-#################################
+banner_cipherusprime
 
-echo " "
-echo " ||||||||||||||||||||||||||||||||||||||||||||"
-echo " "
+termux_ducky
 
-###### END of installation #######
+sleep 1
+
+# Boot nethunter
+
+banner_cipherusprime
+
+install_boot-nethunter
+
+sleep 1
+
+# Termux superuser
+
+banner_cipherusprime
+
+install_termux-superuser
+
+sleep 1
 
 echo " "
 echo " [*] ALL DONE..."
 echo " [*] Termux is configured as per cipher's configruation..."
 echo " "
-echo " > Termux needs to be restarted to work properly,"
-echo "     Please restart !"
+echo " [!] Termux needs to be restarted to work properly,"
+echo "     Please restart !!!"
 echo " "
-#################################
+read
 
+####################### end #########################
