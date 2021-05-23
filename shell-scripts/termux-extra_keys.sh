@@ -2,7 +2,7 @@
 # Needs Resatart of Termux !!!
 
 function check_update() {
-    
+
 if [ ! -d ~/.termux ]; then
 
     clear
