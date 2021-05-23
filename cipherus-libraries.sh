@@ -72,11 +72,11 @@ function ibar {
     # --- iterate over lines in of passed on file ---
     while IFS=, read -r line; do
     # update progress bar
-    if [[ $3 >= 0 ]]; then
-        sleep $3
-    else
+#    if [ $3 -ge 0 ]; then
+#        sleep $3
+#    else
         sleep 0.1
-    fi
+#    fi
     count=$(($count + 1))
     percent=$((($count * 100 / $Lines * 100) / 100))
     i=$(($percent * $barLen / 100))
@@ -182,7 +182,7 @@ chmod +x ducky
 mv hid-gadget-test /data/data/com.termux/files/usr/bin
 mv ducky ~/.termux/bin
 
-ibar ~/.termux/bin/ducky 410 0.0001
+ibar ~/.termux/bin/ducky 410
 
 echo " "
 echo " [*] Successfully installed Ducky !!!"

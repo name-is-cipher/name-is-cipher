@@ -1,4 +1,4 @@
-#! /bin/bash
+#! /data/data/com.termux/files/usr/bin/bash
 
 # The is cipher's Termux configurations:
 
@@ -29,9 +29,11 @@ fi
 
 check_update
 
-apt -qq -o Dpkg::Use-Pty=0 install wget
+echo " [*] Checking for wget !!!"
 
-if [ ! -f cipherus-libraris.sh ]; then
+apt install wget -y
+
+if [ ! -f cipherus-libraries.sh ]; then
 wget -q https://github.com/name-is-cipher/name-is-cipher/raw/main/cipherus-libraries.sh
 fi
 
