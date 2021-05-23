@@ -119,7 +119,7 @@ echo " [*] Configuring bashrc ..."
 echo " "
 wget -q https://github.com/name-is-cipher/name-is-cipher/raw/main/assets/bashrc.txt
 cat bashrc.txt > ~/.bashrc
-
+rm bashrc.txt
 ibar ~/.bashrc 32
 
 echo " [*] Successfully Configured bashrc"

@@ -106,6 +106,8 @@ read
 
 banner_cipherusprime
 
+clean_cipherus
+
 echo " "
 echo " [*] Successfully configured Termux, as per "
 echo "     cipher's configruation..."
