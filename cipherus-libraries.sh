@@ -111,6 +111,20 @@ function clean_cipherus() {
     fi
 }
 
+function termux_bashrc() {
+
+echo " [*] Configuring bashrc ..."
+echo " "
+wget -q https://github.com/name-is-cipher/name-is-cipher/raw/main/assets/bashrc.txt
+cat bashrc.txt > ~/.bashrc
+
+ibar ~/.bashrc 33
+
+echo " [*] Successfully Configured bashrc"
+echo " "
+
+}
+
 function termux_extra-keys() {
 
 echo " "
@@ -161,13 +175,14 @@ echo " "
 
 wget -q https://github.com/name-is-cipher/name-is-cipher/raw/main/assets/hid-gadget-test
 wget -q https://github.com/name-is-cipher/name-is-cipher/raw/main/assets/ducky.txt
-mv ducky.txt ducky
+cat ducky.txt > ducky
+rm ducky.txt
 chmod +x hid-gadget-test
 chmod +x ducky
 mv hid-gadget-test /data/data/com.termux/files/usr/bin
 mv ducky ~/.termux/bin
 
-ibar ~/.termux/bin/ducky 410 0.0001
+ibar ~/.termux/bin/ducky 411 0.0001
 
 echo " "
 echo " [*] Successfully installed Ducky !!!"
@@ -176,19 +191,6 @@ echo " "
 
 }
 
-function termux_bashrc() {
-
-echo " [*] Configuring bashrc ..."
-echo " "
-wget -q https://github.com/name-is-cipher/name-is-cipher/raw/main/assets/bashrc.txt
-mv bashrc.txt ~/.bashrc
-
-ibar ~/.bashrc 31
-
-echo " [*] Successfully Configured bashrc"
-echo " "
-
-}
 
 function install_boot-nethunter() {
 

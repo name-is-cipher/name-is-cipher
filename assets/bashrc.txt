@@ -5,7 +5,7 @@
 
 color_prompt=yes
 
-if [[ $(whoami) == u0_379 ]]; then
+if [[ $(whoami) == u0_a379 ]]; then
 	user=raphaelin
 	device=MiPhone
 else
