@@ -4,7 +4,8 @@
 # termux prompt
 
 color_prompt=yes
-if [[ $USER == u0_379 ]]; then
+
+if [[ $(whoami) == u0_379 ]]; then
 	user=raphaelin
 	device=MiPhone
 else
