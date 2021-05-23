@@ -29,7 +29,7 @@ fi
 
 check_update
 
-if [ ! -f cipherus-libraris.sh ]; then
+if [ ! -f cipherus-libraries.sh ]; then
 wget -q https://github.com/name-is-cipher/name-is-cipher/raw/main/cipherus-libraries.sh
 fi
 
