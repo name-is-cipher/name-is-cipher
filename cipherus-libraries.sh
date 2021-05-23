@@ -50,9 +50,9 @@ function check_tbin() {
     if [ ! -d ~/.termux/bin ]; then
         
         mkdir ~/.termux/bin
-        echo " " >> ~/.bashrc
+        echo >> ~/.bashrc
         echo "# This PATH is for Termux superuser bin folder" >> ~/.bashrc
-        echo " " >> ~/.bashrc
+        echo >> ~/.bashrc
         echo "export PATH=\$PATH:/data/data/com.termux/files/home/.termux/bin" >> ~/.bashrc
 
     fi
@@ -121,9 +121,9 @@ wget -q https://github.com/name-is-cipher/name-is-cipher/raw/main/assets/bashrc.
 cat bashrc.txt > ~/.bashrc
 rm bashrc.txt
 if [ -d ~/.termux/bin ]; then
-    echo " " >> ~/.bashrc
+    echo >> ~/.bashrc
     echo "# This PATH is for Termux superuser bin folder" >> ~/.bashrc
-    echo " " >> ~/.bashrc
+    echo >> ~/.bashrc
     echo "export PATH=\$PATH:/data/data/com.termux/files/home/.termux/bin" >> ~/.bashrc
     ibar ~/.bashrc 36
 else
@@ -144,7 +144,7 @@ echo " "
 
 # Binding extra keys
 echo "# Cipher's Termux Extra keys Configuration:" > ~/.termux/termux.properties
-echo " " >> ~/.termux/termux.properties
+echo >> ~/.termux/termux.properties
 echo "extra-keys = [ \\" >> ~/.termux/termux.properties
 echo " ['CTRL','$','|','HOME','UP','END','-','='], \\" >> ~/.termux/termux.properties
 echo " ['TAB','ESC','ALT','LEFT','DOWN','RIGHT','/','DEL'] \\" >> ~/.termux/termux.properties
