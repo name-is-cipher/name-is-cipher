@@ -31,8 +31,6 @@ fi
 
 source cipherus-libraries.sh
 
-check_tbin
-
 ###################### main ##########################
 
 # Termux bashrc
@@ -40,6 +38,8 @@ check_tbin
 banner_cipherusprime
 
 termux_bashrc
+
+check_tbin
 
 sleep 1
 
