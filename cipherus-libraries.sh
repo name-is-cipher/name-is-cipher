@@ -72,7 +72,7 @@ function ibar {
     # --- iterate over lines in of passed on file ---
     while IFS=, read -r line; do
     # update progress bar
-    if [ $3 -g 0 ]; then
+    if [[ $3 >= 0 ]]; then
         sleep $3
     else
         sleep 0.1
@@ -118,7 +118,7 @@ echo " "
 wget -q https://github.com/name-is-cipher/name-is-cipher/raw/main/assets/bashrc.txt
 cat bashrc.txt > ~/.bashrc
 
-ibar ~/.bashrc 33
+ibar ~/.bashrc 32
 
 echo " [*] Successfully Configured bashrc"
 echo " "
@@ -182,7 +182,7 @@ chmod +x ducky
 mv hid-gadget-test /data/data/com.termux/files/usr/bin
 mv ducky ~/.termux/bin
 
-ibar ~/.termux/bin/ducky 411 0.0001
+ibar ~/.termux/bin/ducky 410 0.0001
 
 echo " "
 echo " [*] Successfully installed Ducky !!!"
