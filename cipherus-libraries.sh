@@ -120,6 +120,12 @@ echo " "
 wget -q https://github.com/name-is-cipher/name-is-cipher/raw/main/assets/bashrc.txt
 cat bashrc.txt > ~/.bashrc
 rm bashrc.txt
+if [ -d ~/.termux/bin ]; then
+    echo " " >> ~/.bashrc
+    echo "# This PATH is for Termux superuser bin folder" >> ~/.bashrc
+    echo " " >> ~/.bashrc
+    echo "export PATH=\$PATH:/data/data/com.termux/files/home/.termux/bin" >> ~/.bashrc
+fi
 ibar ~/.bashrc 32
 
 echo " [*] Successfully Configured bashrc"
