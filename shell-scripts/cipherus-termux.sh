@@ -29,9 +29,7 @@ fi
 
 check_update
 
-banner_cipherusprime
-
-apt install wget -y
+apt install wget -qq > /dev/null
 
 if [ ! -f cipherus-libraris.sh ]; then
 wget -q https://github.com/name-is-cipher/name-is-cipher/raw/main/cipherus-libraries.sh
