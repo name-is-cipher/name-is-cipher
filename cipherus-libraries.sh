@@ -190,7 +190,7 @@ chmod +x ducky
 mv hid-gadget-test /data/data/com.termux/files/usr/bin
 mv ducky ~/.termux/bin
 
-ibar ~/.termux/bin/ducky 410 8
+ibar ~/.termux/bin/ducky 410 5
 
 echo " "
 echo " [*] Successfully installed Ducky !!!"

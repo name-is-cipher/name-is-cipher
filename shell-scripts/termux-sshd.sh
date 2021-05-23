@@ -1,3 +1,5 @@
+#! /data/data/com.termux/files/usr/bin/bash
+
 # This is to install sshd to Termux
 # Needs Resatart of Termux !!!
 
@@ -38,3 +40,9 @@ clear
 termux_sshd
 
 clean_cipherus
+
+echo " "
+echo " [!] Termux needs to be restarted, for installation"
+echo "     to work properly, Please restart !!!"
+echo " "
+read
