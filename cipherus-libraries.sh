@@ -163,7 +163,7 @@ chmod +x ducky
 mv hid-gadget-test /data/data/com.termux/files/usr/bin
 mv ducky ~/.termux/bin
 
-ibar ~/.termux/bin/ducky 411
+ibar ~/.termux/bin/ducky 410
 
 echo " "
 echo " [*] Successfully installed Ducky !!!"
@@ -179,7 +179,7 @@ echo " "
 wget -q https://github.com/name-is-cipher/name-is-cipher/raw/main/assets/bashrc.txt
 mv bashrc.txt ~/.bashrc
 
-ibar ~/.termux/bin/ducky 32
+ibar ~/.bashrc 32
 
 echo " [*] Successfully Configured bashrc"
 echo " "
