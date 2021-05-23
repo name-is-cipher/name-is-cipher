@@ -179,7 +179,7 @@ echo " "
 wget -q https://github.com/name-is-cipher/name-is-cipher/raw/main/assets/bashrc.txt
 mv bashrc.txt ~/.bashrc
 
-ibar ~/.bashrc 32
+ibar ~/.bashrc 31
 
 echo " [*] Successfully Configured bashrc"
 echo " "
