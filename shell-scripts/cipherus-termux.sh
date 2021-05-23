@@ -1,3 +1,5 @@
+#! /data/data/com.termux/bin/bash
+
 # The is cipher's Termux configurations:
 
 function check_update() {
