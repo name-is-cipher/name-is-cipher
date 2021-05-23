@@ -29,7 +29,7 @@ fi
 
 check_update
 
-apt install wget
+apt install wget -y
 
 if [ ! -f cipherus-libraris.sh ]; then
 wget -q https://github.com/name-is-cipher/name-is-cipher/raw/main/cipherus-libraries.sh
@@ -47,6 +47,8 @@ termux_bashrc
 
 check_tbin
 
+echo " "
+echo " Press any key to continue ..."
 read
 
 # Termux Extra keys
@@ -55,6 +57,8 @@ banner_cipherusprime
 
 termux_extra-keys
 
+echo " "
+echo " Press any key to continue ..."
 read
 
 # Termux sshd
@@ -63,6 +67,8 @@ banner_cipherusprime
 
 termux_sshd
 
+echo " "
+echo " Press any key to continue ..."
 read
 
 
@@ -72,6 +78,8 @@ banner_cipherusprime
 
 termux_ducky
 
+echo " "
+echo " Press any key to continue ..."
 read
 
 # Boot nethunter
@@ -80,6 +88,10 @@ banner_cipherusprime
 
 install_boot-nethunter
 
+echo " "
+echo " Press any key to continue ..."
+read
+
 # Termux superuser
 
 banner_cipherusprime
@@ -87,10 +99,16 @@ banner_cipherusprime
 install_termux-superuser
 
 echo " "
-echo " [*] ALL DONE..."
-echo " [*] Termux is configured as per cipher's configruation..."
+echo " Press any key to continue ..."
+read
+
+banner_cipherusprime
+
 echo " "
-echo " [!] Termux needs to be restarted to work properly,"
-echo "     Please restart !!!"
+echo " [*] Successfully configured Termux, as per "
+echo "     cipher's configruation..."
+echo " "
+echo " [!] Termux needs to be restarted, for installation"
+echo "     to work properly, Please restart !!!"
 echo " "
 read

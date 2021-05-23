@@ -125,7 +125,6 @@ ibar ~/.termux/termux.properties 6
 
 echo " "
 echo " > Successfully added extra Keys to Termux !!!"
-echo "   Restart the termux to see the changes..."
 echo " "
 
 }
@@ -135,7 +134,7 @@ function termux_sshd() {
 echo " "
 echo " [*] Installing sshd !!!"
 echo " "
-apt install openssh
+apt install openssh -y
 clear
 echo " > Set the Passwaord for current user,"
 echo "   in order to Login to ssh..."
