@@ -39,7 +39,7 @@ check_tbin
 
 clear
 
-termux_sshd
+termux_ducky
 
 clean_cipherus
 
