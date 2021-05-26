@@ -1,4 +1,4 @@
-#! /data/data/com.termux/usr/files/bin/bash
+#!/bin/bash
 
 # DroidDucky
 # Simple Duckyscript interpreter in Bash. Based on android-keyboard-gadget and hid-gadget-test utility.
@@ -132,9 +132,9 @@ function convert()
 
 	else
 		case $1 in
-		[[:upper:]] )
+		[[:upper:]])
 			tmp=$1
-			kbcode="left-shift ${tmp}"
+			kbcode="left-shift ${tmp,,}"
 			;;
 		*)
 			kbcode="$1"
