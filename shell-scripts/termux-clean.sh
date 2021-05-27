@@ -6,6 +6,7 @@ sleep 1
 echo -ne "\r [!] Cleaning all cipherus Termux configs .."
 sleep 1
 echo -ne "\r [!] Cleaning all cipherus Termux configs ..." 
+echo 
 
 if [ -d ~/.termux/bin ]; then
     rm -rf ~/.termux/bin
@@ -28,6 +29,5 @@ if [ -f ~/.wget-hsts ]; then
     rm ~/.wget-hsts
 fi
 
-clear
 echo 
 echo " [!] Clean successfull !!!"
