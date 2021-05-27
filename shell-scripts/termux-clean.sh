@@ -1,10 +1,12 @@
 #! /data/data/com.termux/files/usr/bin/bash
 
-echo -n " [!] Cleaning all cipherus Termux configs ."
+echo 
+echo -ne " [!] Cleaning all cipherus Termux configs ./r"
 sleep 0.5
-echo -n " [!] Cleaning all cipherus Termux configs .."
+echo -ne " [!] Cleaning all cipherus Termux configs ../r"
 sleep 0.5
-echo -n " [!] Cleaning all cipherus Termux configs ..."
+echo -ne " [!] Cleaning all cipherus Termux configs .../r"
+echo 
 
 if [ -d ~/.termux/bin ]; then
     rm -rf ~/.termux/bin
