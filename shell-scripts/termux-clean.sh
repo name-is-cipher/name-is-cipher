@@ -12,10 +12,11 @@ if [ -f /data/data/com.termux/files/usr/bin/hid-gadget-test ]; then
     rm /data/data/com.termux/files/usr/bin/hid-gadget-test
 fi
 
-if [ -f ~/.wget-hsts ]; then
-    rm ~/.wget-hsts
-fi
-
 wget -q https://github.com/name-is-cipher/name-is-cipher/raw/main/assets/termux.properties.txt
 cat termux.properties.txt > ~/.termux/termux.properties
 rm termux.properties.txt
+
+
+if [ -f ~/.wget-hsts ]; then
+    rm ~/.wget-hsts
+fi
