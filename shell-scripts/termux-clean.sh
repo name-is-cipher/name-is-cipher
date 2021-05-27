@@ -30,4 +30,5 @@ if [ -f ~/.wget-hsts ]; then
 fi
 
 echo 
-echo " [!] Clean successfull !!!"
+echo " [*] Clean successfull !!!"
+echo 
