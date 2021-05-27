@@ -1,5 +1,6 @@
 #! /data/data/com.termux/files/usr/bin/bash
 
+clear
 echo 
 echo -ne "\r [!] Cleaning all cipherus Termux configs ."
 sleep 1
