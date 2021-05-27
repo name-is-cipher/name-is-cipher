@@ -1,12 +1,11 @@
 #! /data/data/com.termux/files/usr/bin/bash
 
 echo 
-echo -ne " [!] Cleaning all cipherus Termux configs ./r"
-sleep 0.5
-echo -ne " [!] Cleaning all cipherus Termux configs ../r"
-sleep 0.5
-echo -ne " [!] Cleaning all cipherus Termux configs .../r"
-echo 
+echo -ne "\r [!] Cleaning all cipherus Termux configs ."
+sleep 1
+echo -ne "\r [!] Cleaning all cipherus Termux configs .."
+sleep 1
+echo -ne "\r [!] Cleaning all cipherus Termux configs ..." 
 
 if [ -d ~/.termux/bin ]; then
     rm -rf ~/.termux/bin
@@ -29,4 +28,6 @@ if [ -f ~/.wget-hsts ]; then
     rm ~/.wget-hsts
 fi
 
+clear
+echo 
 echo " [!] Clean successfull !!!"
