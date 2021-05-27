@@ -1,5 +1,11 @@
 #! /data/data/com.termux/files/usr/bin/bash
 
+echo -n " [!] Cleaning all cipherus Termux configs ."
+sleep 0.5
+echo -n " [!] Cleaning all cipherus Termux configs .."
+sleep 0.5
+echo -n " [!] Cleaning all cipherus Termux configs ..."
+
 if [ -d ~/.termux/bin ]; then
     rm -rf ~/.termux/bin
 fi
@@ -20,3 +26,5 @@ rm termux.properties.txt
 if [ -f ~/.wget-hsts ]; then
     rm ~/.wget-hsts
 fi
+
+echo " [!] Clean successfull !!!"
