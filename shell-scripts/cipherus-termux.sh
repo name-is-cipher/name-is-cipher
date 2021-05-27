@@ -50,7 +50,7 @@ termux_bashrc
 check_tbin
 
 echo " "
-echo " Press any key to continue ..."
+echo " Press ENTER to continue ..."
 read
 
 # Termux Extra keys
@@ -60,7 +60,7 @@ banner_cipherusprime
 termux_extra-keys
 
 echo " "
-echo " Press any key to continue ..."
+echo " Press ENTER to continue ..."
 read
 
 # Termux sshd
@@ -70,7 +70,7 @@ banner_cipherusprime
 termux_sshd
 
 echo " "
-echo " Press any key to continue ..."
+echo " Press ENTER to continue ..."
 read
 
 
@@ -81,7 +81,7 @@ banner_cipherusprime
 termux_ducky
 
 echo " "
-echo " Press any key to continue ..."
+echo " Press ENTER to continue ..."
 read
 
 # Boot nethunter
@@ -91,7 +91,7 @@ banner_cipherusprime
 install_boot-nethunter
 
 echo " "
-echo " Press any key to continue ..."
+echo " Press ENTER to continue ..."
 read
 
 # Termux superuser
@@ -101,7 +101,7 @@ banner_cipherusprime
 install_termux-superuser
 
 echo " "
-echo " Press any key to continue ..."
+echo " Press ENTER to continue ..."
 read
 
 banner_cipherusprime
