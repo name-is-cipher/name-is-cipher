@@ -73,17 +73,6 @@ echo " "
 echo " Press ENTER to continue ..."
 read
 
-
-# Termux Ducky
-
-banner_cipherusprime
-
-termux_ducky
-
-echo " "
-echo " Press ENTER to continue ..."
-read
-
 # Boot nethunter
 
 banner_cipherusprime
