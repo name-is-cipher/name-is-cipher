@@ -13,8 +13,8 @@ Not really a coffee man, but if like my work you can 👇
   
 <a href="https://www.buymeacoffee.com/name.is.cipher"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=name.is.cipher&button_colour=5F7FFF&font_colour=ffffff&font_family=Cookie&outline_colour=000000&coffee_colour=FFDD00"></a> 
 
-And by the way, there is no compulsion to follow me, because I don’t even know where I’m going...  
-But you can contact me any time as, I'm always available ->
+And by the way, there is no compulsion to follow me, because even I don’t know where I’m going...  
+But you can always contact me, I'm always available ->
   
 Gmail: aravindswami135@gmail.com  
 Instagram: [name_is_cipher](https://www.instagram.com/name_is_cipher)   
