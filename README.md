@@ -5,7 +5,8 @@ Before you start to know me, there is one things you might wanna know first.
   
 - I always learn from the mistakes of others who take my advice. So my advice is, don't take any advice from me. 
  
-So with that being saild, now let us really know about me ->  
+So with that being said, now let us really know about me:  
+I'm ->  
 Networking and Cybersecurity enthusiast.  
 Oreo Lover.  
 Not really a coffee man, but if like my work you can 👇   
