@@ -295,11 +295,12 @@ function storage_api() {
 
     echo " [*] Connecting Phones storage to Termux..."
     echo " "
+    sleep 2  
+    termux-setup-storage
     sleep 2
     
-    termux-setup-storage
-    
     if [ -d storage ]; then
+        cd ~/storage
     	ln -s /storage/emulated/999/ ~/storage/DualSpace
     	echo " "
     	echo " [*] Installation successful !!!"
@@ -309,11 +310,8 @@ function storage_api() {
     else
     	echo " "
     	echo " [!] Somthing Went wrong Trying Again !!!"
-    	sleep 3
-        mkdir ~/storage
-    	echo " "
-        banner_cipherusprime
-    	storage_api
+        clean_cipherus
+        sleep 5
     fi
 
 }
