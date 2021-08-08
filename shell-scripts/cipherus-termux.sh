@@ -28,8 +28,10 @@ fi
 }
 
 check_update
+clear
 
 echo " [*] Checking for wget !!!"
+echo 
 sleep 3
 
 apt install wget -y
