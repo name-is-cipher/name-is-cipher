@@ -108,7 +108,7 @@ read
 
 banner_cipherusprime
 
-sdconnect
+storage_api
 
 echo " "
 echo " Press ENTER to continue ..."

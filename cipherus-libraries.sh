@@ -271,7 +271,7 @@ function install_termux-rootuser() {
     echo " [*] Installing Termux's Root User..."
     echo " "
     
-    sudo apt install tsu -y
+    apt install tsu -y
     cp ~/.bashrc .suroot/
 
     echo " "
@@ -282,15 +282,15 @@ function install_termux-rootuser() {
 
 }
 
-function sdconnect() {
+function storage_api() {
 
     echo " [*] Connecting Phones storage to Termux..."
     echo " "
     sleep 3
     
-    termux-api-storage
+    termux-setup-storage
     
-    if [ -d storage ]; then
+    if [ ! -d storage ]; then
     	ln -s /storage/emulated/999/ ~/storage/DualSpace
     	echo " "
     	echo " [*] Installation successful !!!"
