@@ -295,24 +295,17 @@ function storage_api() {
 
     echo " [*] Connecting Phones storage to Termux..."
     echo " "
+
     sleep 2  
     termux-setup-storage
     sleep 2
-    
-    if [ -d storage ]; then
-        cd ~/storage
-    	ln -s /storage/emulated/999/ ~/storage/DualSpace
-    	echo " "
-    	echo " [*] Installation successful !!!"
-    	echo " "
-    	echo "> Run 'tsu' anywhere to start Termux's Root User."
-    	echo " "
-    else
-    	echo " "
-    	echo " [!] Somthing Went wrong Trying Again !!!"
-        clean_cipherus
-        sleep 5
-    fi
+    ln -s /storage/emulated/999/ ~/storage/DualSpace
+
+    echo " "
+    echo " [*] Installation successful !!!"
+    echo " "
+    echo "> Run 'tsu' anywhere to start Termux's Root User."
+    echo " "
 
 }
 
