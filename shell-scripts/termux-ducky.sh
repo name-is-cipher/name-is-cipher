@@ -1,8 +1,5 @@
 #! /data/data/com.termux/files/usr/bin/bash
 
-# This is to install sshd to Termux
-# Needs Resatart of Termux !!!
-
 function check_update() {
 if [ ! -d ~/.termux ]; then
 

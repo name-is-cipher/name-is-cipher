@@ -53,11 +53,12 @@ echo " "
 echo " Press ENTER to continue ..."
 read
 
-# Termux Extra keys
+
+# Termux's Root User
 
 banner_cipherusprime
 
-termux_extra-keys
+install_termux-rootuser
 
 echo " "
 echo " Press ENTER to continue ..."
@@ -83,6 +84,16 @@ echo " "
 echo " Press ENTER to continue ..."
 read
 
+# Termux Extra keys
+
+banner_cipherusprime
+
+termux_extra-keys
+
+echo " "
+echo " Press ENTER to continue ..."
+read
+
 # Termux superuser
 
 banner_cipherusprime
@@ -92,6 +103,18 @@ install_termux-superuser
 echo " "
 echo " Press ENTER to continue ..."
 read
+
+# Storage API
+
+banner_cipherusprime
+
+sdconnect
+
+echo " "
+echo " Press ENTER to continue ..."
+read
+
+##### cleaning #####
 
 banner_cipherusprime
 

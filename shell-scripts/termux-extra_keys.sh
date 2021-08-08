@@ -1,6 +1,6 @@
 #! /data/data/com.termux/files/usr/bin/bash
 
-# This add extra Row of keys to Termux
+# This adds extra Row of keys to Termux
 # Needs Resatart of Termux !!!
 
 function check_update() {
