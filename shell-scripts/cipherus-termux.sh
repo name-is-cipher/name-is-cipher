@@ -2,37 +2,20 @@
 
 # The is cipher's Termux configurations:
 
-function check_update() {
-
 if [ ! -d ~/.termux ]; then
 
     clear
     echo " "
     echo " [!] Your are on older version of Termux !!!"
-    echo "     Updating Termux...."
-    sleep 4
-    apt update
-    clear
-    echo " [!] if prompted any, hit -> y"
-    sleep 5
-    apt upgrade -y
-    apt install wget -y
-    clear
-    echo " "
-    echo " [*] You need to completly restart the termux, "
-    echo "     And start the installation again !!!"
-    echo " "
+    echo "     Please update and re run the Installation"
     exit;
 fi
 
-}
-
-check_update
 clear
 
 echo " [*] Checking for wget !!!"
 echo 
-sleep 3
+sleep 2
 
 apt install wget -y
 

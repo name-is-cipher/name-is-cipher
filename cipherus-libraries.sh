@@ -163,9 +163,9 @@ function termux_sshd() {
 echo " "
 echo " [*] Installing sshd !!!"
 echo " "
-sleep 3
-apt install openssh -y
 sleep 2
+apt install openssh -y
+sleep 1
 clear
 echo " > Set the Passwaord for current user,"
 echo "   in order to Login to ssh..."
@@ -272,10 +272,16 @@ function install_termux-rootuser() {
 
     echo " [*] Installing Termux's Root User..."
     echo " "
-    
+    sleep 2
     apt install tsu -y
-    mkdir ~/.suroot
-    cp ~/.bashrc ~/.suroot/
+
+    if [ ! -d ~/.suroot ]; then
+        mkdir ~/.suroot
+    fi
+
+    if [ ! -f ~/.suroot/.bashrc ]; then
+        cp ~/.bashrc ~/.suroot/
+    fi
 
     echo " "
     echo " [*] Installation successful !!!"
@@ -289,7 +295,7 @@ function storage_api() {
 
     echo " [*] Connecting Phones storage to Termux..."
     echo " "
-    sleep 3
+    sleep 2
     
     termux-setup-storage
     
@@ -303,8 +309,10 @@ function storage_api() {
     else
     	echo " "
     	echo " [!] Somthing Went wrong Trying Again !!!"
-    	sleep 4
+    	sleep 3
+        mkdir ~/storage
     	echo " "
+        banner_cipherusprime
     	storage_api
     fi
 
