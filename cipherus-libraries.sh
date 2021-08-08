@@ -18,7 +18,7 @@ function banner_cipherusprime() {
     printf "    ${blue}##         CipherusPrime           ##\n"
     printf "    ${blue}##                                 ##\n"
     printf "    ${blue}#####################################\n"
-    printf "    ${blue}|||||||  ${light_cyan}name-is-cipher  ${blue}|||||||\n"
+    printf "    ${blue}  |||||||  ${light_cyan}name-is-cipher  ${blue}|||||||\n"
     printf "    ${blue}-------------------------------------${reset}"
     echo " "
     echo " "
@@ -163,7 +163,9 @@ function termux_sshd() {
 echo " "
 echo " [*] Installing sshd !!!"
 echo " "
+sleep 3
 apt install openssh -y
+sleep 2
 clear
 echo " > Set the Passwaord for current user,"
 echo "   in order to Login to ssh..."
@@ -272,7 +274,8 @@ function install_termux-rootuser() {
     echo " "
     
     apt install tsu -y
-    cp ~/.bashrc .suroot/
+    mkdir ~/.suroot
+    cp ~/.bashrc ~/.suroot/
 
     echo " "
     echo " [*] Installation successful !!!"
@@ -290,14 +293,13 @@ function storage_api() {
     
     termux-setup-storage
     
-    if [ ! -d storage ]; then
+    if [ -d storage ]; then
     	ln -s /storage/emulated/999/ ~/storage/DualSpace
     	echo " "
     	echo " [*] Installation successful !!!"
     	echo " "
     	echo "> Run 'tsu' anywhere to start Termux's Root User."
     	echo " "
-    fi
     else
     	echo " "
     	echo " [!] Somthing Went wrong Trying Again !!!"
