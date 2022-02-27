@@ -1,5 +1,5 @@
 Hi, 
-I’m Aravind Swami [a.k.a C1PH3R]  
+I’m Aravind Swami [a.k.a CIPH3R]  
 
 Networking and Cybersecurity enthusiast.  
 
