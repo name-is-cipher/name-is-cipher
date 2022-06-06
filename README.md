@@ -1,12 +1,7 @@
-Hi 👋 My name is Aravind Swami
+Hi, I'm Aravind Swami \[CIPH3R\]
 ==============================
 
-\[CIPH3R\]
-----------
-
 Networking and Cybersecurity enthusiast.
-
-<a href="https://app.daily.dev/name_is_cipher"><img src="https://api.daily.dev/devcards/e064ac207c6e4040a10b7af5fccbaff9.png?r=o0u" width="400" alt="Aravind Swami Potluri's Dev Card"/></a>
 
 * 🌍  I'm based in Indian
 * ✉️  You can contact me at [aravindswami135@gmail.com](mailto:aravindswami135@gmail.com)
