@@ -55,13 +55,19 @@ src="https://img.shields.io/twitch/status/nameiscipher?logo=twitchsx&style=for-t
 
 <b>My GitHub Stats</b>
 
-<a href="http://www.github.com/name-is-cipher"><img src="https://github-readme-stats.vercel.app/api?username=name-is-cipher&show_icons=true&hide=&count_private=true&title_color=0891b2&text_color=ffffff&icon_color=3382ed&bg_color=1e3a8a&hide_border=true&show_icons=true" alt="name-is-cipher's GitHub stats" /></a>
+<div width="100%" align="center">
+  <a href="http://www.github.com/name-is-cipher"><img src="https://github-readme-stats.vercel.app/api?username=name-is-cipher&show_icons=true&hide=&count_private=true&title_color=0891b2&text_color=ffffff&icon_color=3382ed&bg_color=1e3a8a&hide_border=true&show_icons=true" alt="name-is-cipher's GitHub stats" /></a>
 
-<a href="http://www.github.com/name-is-cipher"><img src="https://github-readme-streak-stats.herokuapp.com/?user=name-is-cipher&stroke=ffffff&background=1e3a8a&ring=0891b2&fire=0891b2&currStreakNum=ffffff&currStreakLabel=0891b2&sideNums=ffffff&sideLabels=ffffff&dates=ffffff&hide_border=true" /></a>
+  <a href="http://www.github.com/name-is-cipher"><img src="https://github-readme-streak-stats.herokuapp.com/?user=name-is-cipher&stroke=ffffff&background=1e3a8a&ring=0891b2&fire=0891b2&currStreakNum=ffffff&currStreakLabel=0891b2&sideNums=ffffff&sideLabels=ffffff&dates=ffffff&hide_border=true" /></a>
+
+  <a href="https://github.com/name-is-cipher" align="left"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=name-is-cipher&langs_count=10&title_color=0891b2&text_color=ffffff&icon_color=3382ed&bg_color=1e3a8a&hide_border=true&locale=en&custom_title=Top%20%Languages" alt="Top Languages" /></a>
+</div>
+
+
 
 <a href="http://www.github.com/name-is-cipher"><img src="https://activity-graph.herokuapp.com/graph?username=name-is-cipher&bg_color=1e3a8a&color=ffffff&line=3382ed&point=ffffff&area_color=1e3a8a&area=true&hide_border=true&custom_title=GitHub%20Commits%20Graph" alt="GitHub Commits Graph" /></a>
 
-<a href="https://github.com/name-is-cipher" align="left"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=name-is-cipher&langs_count=10&title_color=0891b2&text_color=ffffff&icon_color=3382ed&bg_color=1e3a8a&hide_border=true&locale=en&custom_title=Top%20%Languages" alt="Top Languages" /></a>
+
 
 <b>Top Repositories</b>
 
