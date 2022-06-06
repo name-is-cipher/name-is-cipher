@@ -1,7 +1,6 @@
 ## Hi, I'm Aravind Swami \[CIPH3R\]  
-    ==============================  
 
-Networking and Cybersecurity enthusiast.
+* Networking and Cybersecurity enthusiast.
 
 ## <b> Skills </b>
 <div width="100%" align="center"> 
