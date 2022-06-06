@@ -23,6 +23,8 @@ src="https://img.shields.io/twitch/status/nameiscipher?logo=twitchsx&style=for-t
 
 <a href="http://www.github.com/name-is-cipher"><img src="https://github-readme-streak-stats.herokuapp.com/?user=name-is-cipher&stroke=ffffff&background=1e3a8a&ring=0891b2&fire=0891b2&currStreakNum=ffffff&currStreakLabel=0891b2&sideNums=ffffff&sideLabels=ffffff&dates=ffffff&hide_border=true" /></a>
 
+<a href="http://www.github.com/name-is-cipher"><img src="https://activity-graph.herokuapp.com/graph?username=name-is-cipher&bg_color=1e3a8a&color=ffffff&line=3382ed&point=ffffff&area_color=1e3a8a&area=true&hide_border=true&custom_title=GitHub%20Commits%20Graph" alt="GitHub Commits Graph" /></a>
+
 ### Skills
 
 <p align="left">
