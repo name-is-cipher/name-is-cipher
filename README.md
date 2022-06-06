@@ -39,6 +39,11 @@
 <br />
 -->
 
+## <b>Top Repositories</b>
+
+<div width="100%" align="center"><a href="https://github.com/name-is-cipher/termux-superuser" align="left"><img align="left" width="46%" src="https://github-readme-stats.vercel.app/api/pin/?username=name-is-cipher&repo=termux-superuser&title_color=0891b2&text_color=ffffff&icon_color=3382ed&bg_color=1e3a8a&hide_border=true&locale=en" /></a><a href="https://github.com/name-is-cipher/boot-nethunter" align="right"><img align="right" width="46%" src="https://github-readme-stats.vercel.app/api/pin/?username=name-is-cipher&repo=boot-nethunter&title_color=0891b2&text_color=ffffff&icon_color=3382ed&bg_color=1e3a8a&hide_border=true&locale=en" /></a></div><br /><br /><br /><br /><br /> <br />
+
+
 ## <b> Contact & Social </b>
 <div align="center" style="inline-flex">
     <a href="mailto:aravindswami135@gmail.com" target="_blank" rel="noreferrer"><img src="https://img.icons8.com/fluency/48/undefined/gmail-new.png" width="32" height="32" /></a> &nbsp; <a href="https://www.facebook.com/name.is.cipher" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/facebook.svg" width="32" height="32" /></a> &nbsp; <a href="https://www.linkedin.com/in/name-is-cipher" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" width="32" height="32" /></a> &nbsp; <a href="http://www.instagram.com/name_is_cipher" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/instagram.svg" width="32" height="32" /></a> &nbsp; <a href="https://www.twitter.com/name_is_cipher" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/twitter.svg" width="32" height="32" /></a>
@@ -47,10 +52,6 @@
 <div align="center" style="inline-flex">
     <a href="https://www.codepen.io/name-is-cipher" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/codepen.svg" width="32" height="32" /></a> &nbsp; <a href="https://nameiscipher.hashnode.dev" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/hashnode.svg" width="32" height="32" /></a> &nbsp; <a href="https://www.github.com/name-is-cipher" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" width="32" height="32" /></a> &nbsp; <a href="https://www.stackoverflow.com/users/10300689/aravind-swami" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/stackoverflow.svg" width="32" height="32" /></a> &nbsp; <a href="https://discord.com/users/name-is-cipher#3642" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/discord.svg" width="32" height="32" /></a> &nbsp; <a href="https://www.twitch.tv/nameiscipher" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/twitch.svg" width="32" height="32" /></a> &nbsp; <a href="https://name-is-cipher" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/rss.svg" width="32" height="32" /></a>
 </div>
-
-<b>Top Repositories</b>
-
-<div width="100%" align="center"><a href="https://github.com/name-is-cipher/termux-superuser" align="left"><img align="left" width="46%" src="https://github-readme-stats.vercel.app/api/pin/?username=name-is-cipher&repo=termux-superuser&title_color=0891b2&text_color=ffffff&icon_color=3382ed&bg_color=1e3a8a&hide_border=true&locale=en" /></a><a href="https://github.com/name-is-cipher/boot-nethunter" align="right"><img align="right" width="46%" src="https://github-readme-stats.vercel.app/api/pin/?username=name-is-cipher&repo=boot-nethunter&title_color=0891b2&text_color=ffffff&icon_color=3382ed&bg_color=1e3a8a&hide_border=true&locale=en" /></a></div><br /><br /><br /><br /><br /> <br />
 
 ### <b> Support Me </b>
 
