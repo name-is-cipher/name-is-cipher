@@ -6,6 +6,8 @@
 <div width="100%" align="center"><a href="http://www.github.com/name-is-cipher" align="left"><img align="left" width="46%" src="https://github-readme-stats.vercel.app/api?username=name-is-cipher&show_icons=true&hide=&count_private=true&title_color=0891b2&text_color=ffffff&icon_color=3382ed&bg_color=1e3a8a&hide_border=true&show_icons=true" alt="name-is-cipher's GitHub stats" /></a> &nbsp; <a href="http://www.github.com/name-is-cipher" align="right"><img align="right" width="46%" src="https://github-readme-streak-stats.herokuapp.com/?user=name-is-cipher&stroke=ffffff&background=1e3a8a&ring=0891b2&fire=0891b2&currStreakNum=ffffff&currStreakLabel=0891b2&sideNums=ffffff&sideLabels=ffffff&dates=ffffff&hide_border=true" /></a>
 </div> <br /> <br /> <br /> <br /> <br /> <br/>
 
+<div width="100%" align="center"><a href="http://www.github.com/name-is-cipher" align="center"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=name-is-cipher&layout=compact&show_icons=true&hide=&count_private=true&title_color=0891b2&text_color=ffffff&icon_color=3382ed&bg_color=1e3a8a&hide_border=true&show_icons=true" alt="name-is-cipher's GitHub Top Languages" /></a>
+
 ## <b> Skills </b>
 <div width="100%" align="center"> 
     Programming Languages <br /> <br />
