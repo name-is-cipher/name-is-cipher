@@ -54,4 +54,6 @@
 
 ## <b> Support Me </b>
 <a href="https://www.buymeacoffee.com/name.is.cipher"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" width="200" /></a>
-[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=59LH5AHNQ8XZW)
+
+<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=59LH5AHNQ8XZW"><img src="https://www.citypng.com/public/uploads/preview/download-paypal-yellow-payment-button-png-21635275375jabzun4vce.png" width="200" /></a>
+
