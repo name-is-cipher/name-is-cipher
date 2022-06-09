@@ -52,5 +52,7 @@
 
 
 ## <b> Support Me </b>
-<a href="https://www.buymeacoffee.com/name.is.cipher"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" width="200" /></a> <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=LK7L4FKYG2RYN"><img src="https://www.citypng.com/public/uploads/small/21635276440hg6kchx3uwci5zm7i1trflvwfk6yjj5f0pyewvomiebiuipbfrn6mnejeksgplmfgpzjwcw73sqy4zs4ibiuxpxj53cav3n8g4qx.png" width="200" /></a>
-
+<a href="https://www.buymeacoffee.com/name.is.cipher"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" width="200" /></a> 
+<!--
+<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=LK7L4FKYG2RYN"><img src="https://www.citypng.com/public/uploads/small/21635276440hg6kchx3uwci5zm7i1trflvwfk6yjj5f0pyewvomiebiuipbfrn6mnejeksgplmfgpzjwcw73sqy4zs4ibiuxpxj53cav3n8g4qx.png" width="200" /></a>
+-->
