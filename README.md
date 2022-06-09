@@ -54,14 +54,4 @@
 
 ## <b> Support Me </b>
 <a href="https://www.buymeacoffee.com/name.is.cipher"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" width="200" /></a>
-
-<div id="paypal-button-container"></div>
-<script src="https://www.paypal.com/sdk/js?client-id=test&currency=USD"></script>
-    <script>
-        // Render the PayPal button into #paypal-button-container
-        paypal.Buttons({
-            style: {
-                layout: 'horizontal'
-            }
-        }).render('#paypal-button-container');
-    </script>
+[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=59LH5AHNQ8XZW)
